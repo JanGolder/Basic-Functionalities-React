@@ -9,7 +9,7 @@ import Accordion from "./components/accordion";
 // import LightDarkMode from "./components/light-dark-mode";
 // import LoadMoreData from "./components/load-more-data";
 // import QRCodeGenerator from "./components/qr-code-generator";
-// import RandomColor from "./components/random-color";
+import RandomColor from "./components/randomColor";
 // import ScrollIndicator from "./components/scroll-indicator";
 // import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 // import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
@@ -28,7 +28,7 @@ function App() {
       {/* Accordian component */}
       <Accordion/>
       {/* Random color component */}
-      {/* <RandomColor/> */}
+      <RandomColor/>
 
       {/* Star rating component */}
       {/* <StarRating noOfStars={10}/> */}
