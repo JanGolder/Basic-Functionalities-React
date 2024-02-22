@@ -17,6 +17,8 @@ export default function randomColor() {
     setColor(hexColor);
   };
 
+  
+
   return (
     <section style={{backgroundColor: color}}>
       <div>
