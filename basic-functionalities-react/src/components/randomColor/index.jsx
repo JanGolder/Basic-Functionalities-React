@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function randomColor() {
   const [typeOfColor, setTypeOfColor] = useState("hex");
-  const [color, setColor] = useState("#ffffff");
+  const [color, setColor] = useState("#000000");
 
   const randomNumberGenerator = (length) => {
     return Math.floor(Math.random() * length);
@@ -17,17 +17,48 @@ export default function randomColor() {
     setColor(hexColor);
   };
 
-  
+  const handleRgbColorGenerator = () => {
+    const r = randomNumberGenerator(256);
+    const g = randomNumberGenerator(256);
+    const b = randomNumberGenerator(256);
+    const color = `rgb(${r},${g},${b})`;
+    setColor(color);
+  };
+
+  useEffect(() => {
+    if (typeOfColor === "hex") handleHexColorGenerator();
+    else handleRgbColorGenerator();
+  }, [typeOfColor]);
 
   return (
-    <section style={{backgroundColor: color}}>
+    <section style={{ backgroundColor: color, width: "100%", height: "100vh" }}>
       <div>
-        <button onClick={handleHexColorGenerator}>HEX Color</button>
-        <button>RGB Color</button>
-        <button>Generate Color</button>
+        <button onClick={() => setTypeOfColor("hex")}>HEX Color</button>
+        <button onClick={() => setTypeOfColor("rgb")}>RGB Color</button>
+        <button
+          onClick={
+            typeOfColor === "hex"
+              ? handleHexColorGenerator
+              : handleRgbColorGenerator
+          }
+        >
+          Generate Color
+        </button>
       </div>
-      <div>
-        <h4>Color</h4>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          color: "#fff",
+          fontSize: "60px",
+          marginTop: "50px",
+          flexDirection: "column",
+          gap: "20px",
+        }}
+      >
+        <h4>Color: {color}</h4>
+        <h5>{typeOfColor === "hex" ? "Hex color" : "RGB color"}</h5>
       </div>
     </section>
   );
