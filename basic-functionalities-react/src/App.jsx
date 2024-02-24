@@ -14,7 +14,7 @@ import RandomColor from "./components/randomColor";
 // import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 // import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 // import SearchAutocomplete from "./components/search-autocomplete-with-api";
-// import StarRating from "./components/star-rating";
+import StarRating from "./components/starRating";
 // import TicTacToe from "./components/tic-tact-toe";
 // import TreeView from "./components/tree-view";
 // import menus from "./components/tree-view/data";
@@ -31,7 +31,7 @@ function App() {
       <RandomColor/>
 
       {/* Star rating component */}
-      {/* <StarRating noOfStars={10}/> */}
+      <StarRating noOfStars={10}/>
 
       {/* Image slider component */}
       {/* <ImageSlider
