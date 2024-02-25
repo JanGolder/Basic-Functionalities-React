@@ -31,7 +31,7 @@ function App() {
       <RandomColor/>
 
       {/* Star rating component */}
-      <StarRating noOfStars={10}/>
+      <StarRating starNo={10}/>
 
       {/* Image slider component */}
       {/* <ImageSlider
