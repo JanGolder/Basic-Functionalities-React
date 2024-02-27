@@ -7,7 +7,7 @@ import Accordion from "./components/accordion";
 // import GithubProfileFinder from "./components/github-profile-finder";
 import ImageSlider from "./components/imageSlider";
 // import LightDarkMode from "./components/light-dark-mode";
-// import LoadMoreData from "./components/load-more-data";
+import LoadMoreData from "./components/loadMoreData";
 // import QRCodeGenerator from "./components/qr-code-generator";
 import RandomColor from "./components/randomColor";
 // import ScrollIndicator from "./components/scroll-indicator";
@@ -41,7 +41,7 @@ function App() {
       />
 
       {/* Load more products component */}
-      {/* <LoadMoreData/> */}
+      <LoadMoreData/>
 
       {/* Tree view component/menu UI component / recursive navigation menu */}
       {/* <TreeView menus={menus} /> */}
