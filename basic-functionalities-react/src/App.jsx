@@ -8,7 +8,7 @@ import Accordion from "./components/accordion";
 import ImageSlider from "./components/imageSlider";
 // import LightDarkMode from "./components/light-dark-mode";
 import LoadMoreData from "./components/loadMoreData";
-// import QRCodeGenerator from "./components/qr-code-generator";
+import QRCodeGenerator from "./components/qrCodeGenerator";
 import RandomColor from "./components/randomColor";
 // import ScrollIndicator from "./components/scroll-indicator";
 // import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
@@ -47,7 +47,7 @@ function App() {
       <TreeView menus={menus} />
 
       {/* QR code generator */}
-      {/* <QRCodeGenerator/> */}
+      <QRCodeGenerator/>
 
       {/* light and dark theme switch */}
       {/* <LightDarkMode/> */}
