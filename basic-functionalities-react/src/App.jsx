@@ -6,7 +6,7 @@ import Accordion from "./components/accordion";
 // import FeatureFlagGlobalState from "./components/feature-flag/context";
 // import GithubProfileFinder from "./components/github-profile-finder";
 import ImageSlider from "./components/imageSlider";
-// import LightDarkMode from "./components/light-dark-mode";
+import LightDarkMode from "./components/darkMode";
 import LoadMoreData from "./components/loadMoreData";
 import QRCodeGenerator from "./components/qrCodeGenerator";
 import RandomColor from "./components/randomColor";
