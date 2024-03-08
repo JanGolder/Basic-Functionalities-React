@@ -10,7 +10,7 @@ import LightDarkMode from "./components/darkMode";
 import LoadMoreData from "./components/loadMoreData";
 import QRCodeGenerator from "./components/qrCodeGenerator";
 import RandomColor from "./components/randomColor";
-// import ScrollIndicator from "./components/scroll-indicator";
+import ScrollIndicator from "./components/scrollIndicator";
 // import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 // import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 // import SearchAutocomplete from "./components/search-autocomplete-with-api";
