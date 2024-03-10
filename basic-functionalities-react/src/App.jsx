@@ -1,7 +1,7 @@
 import "./App.css";
 import Accordion from "./components/accordion";
 // import ModalTest from "./components/custom-modal-popup/modal-test";
-// import TabTest from "./components/custom-tabs/tab-test";
+import Tab from "./components/tabs/tabs";
 // import FeatureFlags from "./components/feature-flag";
 // import FeatureFlagGlobalState from "./components/feature-flag/context";
 // import GithubProfileFinder from "./components/github-profile-finder";
@@ -53,10 +53,10 @@ function App() {
       {/* <LightDarkMode/> */}
 
       {/* Scroll indicator component */}
-      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
 
       {/* Custom tabs component */}
-      {/* <TabTest /> */}
+      <Tab />
 
       {/* Custom Modal Component */}
       {/* <ModalTest/> */}
