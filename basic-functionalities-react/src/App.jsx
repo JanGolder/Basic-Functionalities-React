@@ -4,7 +4,7 @@ import Accordion from "./components/accordion";
 import Tab from "./components/tabs/tabs";
 // import FeatureFlags from "./components/feature-flag";
 // import FeatureFlagGlobalState from "./components/feature-flag/context";
-// import GithubProfileFinder from "./components/github-profile-finder";
+import GithubProfileFinder from "./components/githubProfileFinder";
 import ImageSlider from "./components/imageSlider";
 import LightDarkMode from "./components/darkMode";
 import LoadMoreData from "./components/loadMoreData";
@@ -62,7 +62,7 @@ function App() {
       {/* <ModalTest/> */}
 
       {/* Github profile finder */}
-      {/* <GithubProfileFinder/> */}
+      <GithubProfileFinder/>
 
       {/* Search Autocomplete */}
       {/* <SearchAutocomplete/> */}
