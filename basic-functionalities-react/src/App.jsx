@@ -13,7 +13,7 @@ import RandomColor from "./components/randomColor";
 import ScrollIndicator from "./components/scrollIndicator";
 // import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 // import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
-// import SearchAutocomplete from "./components/search-autocomplete-with-api";
+import SearchAutocomplete from "./components/searchAutocomplete";
 import StarRating from "./components/starRating";
 // import TicTacToe from "./components/tic-tact-toe";
 import TreeView from "./components/treeView";
@@ -65,7 +65,7 @@ function App() {
       <GithubProfileFinder/>
 
       {/* Search Autocomplete */}
-      {/* <SearchAutocomplete/> */}
+      <SearchAutocomplete/>
 
       {/* Tic tac toe */}
       {/* <TicTacToe/> */}
