@@ -15,7 +15,7 @@ import ScrollIndicator from "./components/scrollIndicator";
 // import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 import SearchAutocomplete from "./components/searchAutocomplete";
 import StarRating from "./components/starRating";
-// import TicTacToe from "./components/tic-tact-toe";
+import TicTacToe from "./components/ticTacToe";
 import TreeView from "./components/treeView";
 import menus from "./components/treeView/data";
 // import UseFetchHookTest from "./components/use-fetch/test";
@@ -68,7 +68,7 @@ function App() {
       <SearchAutocomplete/>
 
       {/* Tic tac toe */}
-      {/* <TicTacToe/> */}
+      <TicTacToe/>
 
       {/* Feature Flag IMplementation */}
       {/* <FeatureFlagGlobalState>
