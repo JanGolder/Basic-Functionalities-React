@@ -2,8 +2,8 @@ import "./App.css";
 import Accordion from "./components/accordion";
 // import ModalTest from "./components/custom-modal-popup/modal-test";
 import Tab from "./components/tabs/tabs";
-// import FeatureFlags from "./components/feature-flag";
-// import FeatureFlagGlobalState from "./components/feature-flag/context";
+import FeatureFlags from "./components/featurFlag";
+import FeatureFlagGlobalState from "./components/featureFlag/context";
 import GithubProfileFinder from "./components/githubProfileFinder";
 import ImageSlider from "./components/imageSlider";
 import LightDarkMode from "./components/darkMode";
@@ -50,7 +50,7 @@ function App() {
       <QRCodeGenerator/>
 
       {/* light and dark theme switch */}
-      {/* <LightDarkMode/> */}
+      <LightDarkMode/>
 
       {/* Scroll indicator component */}
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
@@ -71,9 +71,9 @@ function App() {
       <TicTacToe/>
 
       {/* Feature Flag IMplementation */}
-      {/* <FeatureFlagGlobalState>
+      <FeatureFlagGlobalState>
         <FeatureFlags />
-      </FeatureFlagGlobalState> */}
+      </FeatureFlagGlobalState>
 
       {/* useFetch - Custom Hook Test*/}
       {/* <UseFetchHookTest/> */}
