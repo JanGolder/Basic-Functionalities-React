@@ -18,7 +18,7 @@ import StarRating from "./components/starRating";
 import TicTacToe from "./components/ticTacToe";
 import TreeView from "./components/treeView";
 import menus from "./components/treeView/data";
-// import UseFetchHookTest from "./components/use-fetch/test";
+import UseFetchHookTest from "./components/useFetch/test";
 // import UseOnclickOutsideTest from "./components/use-outside-click/test";
 // import UseWindowResizeTest from "./components/use-window-resize/test";
 
@@ -76,7 +76,7 @@ function App() {
       </FeatureFlagGlobalState>
 
       {/* useFetch - Custom Hook Test*/}
-      {/* <UseFetchHookTest/> */}
+      <UseFetchHookTest/>
 
       {/* Use Onclick Outside Hook Test */}
       {/* <UseOnclickOutsideTest/> */}
