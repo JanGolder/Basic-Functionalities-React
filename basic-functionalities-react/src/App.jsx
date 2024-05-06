@@ -1,6 +1,6 @@
 import "./App.css";
 import Accordion from "./components/accordion";
-// import ModalTest from "./components/custom-modal-popup/modal-test";
+import ModalTest from "./components/modalPopup/modalMain";
 import Tab from "./components/tabs/tabs";
 import FeatureFlags from "./components/featurFlag";
 import FeatureFlagGlobalState from "./components/featureFlag/context";
@@ -11,7 +11,7 @@ import LoadMoreData from "./components/loadMoreData";
 import QRCodeGenerator from "./components/qrCodeGenerator";
 import RandomColor from "./components/randomColor";
 import ScrollIndicator from "./components/scrollIndicator";
-// import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 import ScrollToSection from "./components/scrollToTopAndBottom/scrollToSection";
 import SearchAutocomplete from "./components/searchAutocomplete";
 import StarRating from "./components/starRating";
@@ -59,7 +59,7 @@ function App() {
       <Tab />
 
       {/* Custom Modal Component */}
-      {/* <ModalTest/> */}
+      <ModalTest/>
 
       {/* Github profile finder */}
       <GithubProfileFinder/>
@@ -85,7 +85,7 @@ function App() {
       <UseWindowResizeTest/>
 
       {/* Scroll to Top and Bottom */}
-      {/* <ScrollToTopAndBottom/> */}
+      <ScrollToTopAndBottom/>
 
       {/* Scroll to a Particular Section */}
       <ScrollToSection/>
